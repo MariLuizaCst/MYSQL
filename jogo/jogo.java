@@ -57,7 +57,7 @@ public class jogo{
 				break;
 			}
 			case 3:
-				if(saldo>0 && saldo<200) {
+				if(saldo>0 && saldo<=200) {
 					System.out.println("Vamos jogar!");
 					System.out.println("Role os dados!");
 				int dado = (int)(Math.random()*100)+1;
